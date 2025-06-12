@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: StockMS
+
+#Tomcat server details
+server:
+  port: 4571
+
+  
+#Eureks server details
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:4567/eureka/
